@@ -32,7 +32,7 @@ public class Main {
             System.out.println("Потребуется дней: "+(timeDelivery+2));
         }
         //задание 5
-        int monthNumber = 1;
+        int monthNumber = 12;
         switch (monthNumber){
             case 1:
                 System.out.println("Январь");
