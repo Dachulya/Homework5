@@ -8,12 +8,14 @@ public class Main {
                 System.out.println("Устаовите версию приложения для IOS поссылке");
                 if (oldAndNew<2015) {
                     System.out.println("Установите упрощённую версию для IOS");
+                    break;
             }
             case 1:
                 System.out.println("Установите версию приложения для Android по ссылке");
                 if (oldAndNew<2015) {
                     System.out.println("Установите упрощённую версию для Android");
                 }
+                break;
         }
         //Задание 3
         int year=2021;
